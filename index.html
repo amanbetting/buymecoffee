@@ -60,14 +60,12 @@
             background-color: #081A30;
         }
 
-        .crypto {
-            background-color: #D4AF37; /* Metallic gold */
-            color: white;
-            border: 2px solid #333333; /* Black detailing */
-        }
-
-        .crypto:hover {
-            background-color: #B5932D;
+        /* Crypto Information */
+        .crypto-info {
+            font-size: 1.2rem;
+            color: #4A4A4A;
+            margin-bottom: 20px;
+            font-weight: bold;
         }
 
         /* Tips Count */
@@ -108,17 +106,17 @@
     <div class="black-line"></div>
 
     <!-- PayPal Button -->
-    <a href="https://paypal.me/amanjeetsaran" target="_blank" class="button paypal" onclick="incrementTips()">
+    <a href="https://paypal.me/amanjeetsaran" target="_blank" class="button paypal">
         Tip via PayPal
     </a>
 
-    <!-- Crypto Buttons -->
-    <a href="https://bc1qv33ugfxtyajzdwewcv27ysljx6wkh3qua027ne.com" target="_blank" class="button crypto" onclick="incrementTips()">
-        Tip via BTC
-    </a>
-    <a href="https://0xFEbCCDE4A7e1B16eb9Cd06b86c2668a3613c9B2B.com" target="_blank" class="button crypto" onclick="incrementTips()">
-        Tip via Polygon
-    </a>
+    <!-- Crypto Wallet Information -->
+    <div class="crypto-info">
+        <p>BTC: <strong>bc1q83f5vs8kxst40n80w84de8fmr6272p87qdntx0</strong></p>
+        <p>Polygon: <strong>0x28EDbc26CE68A78b8c57A6E73017e9277d821ee1</strong></p>
+        <p>ETH: <strong>0x28EDbc26CE68A78b8c57A6E73017e9277d821ee1</strong></p>
+        <p>Solana: <strong>5BgdaLpQYDpMX2Ufeq8hizYuF8hwk7oMGSSC2nJvQxgC</strong></p>
+    </div>
 
     <!-- Tips Count -->
     <div class="tips-count">
